@@ -26,6 +26,7 @@ m4_copy([AC_PREREQ], [_AC_PREREQ])
 AC_DEFUN([AC_PREREQ], [frob])
 m4_copy_force([_AC_PREREQ], [AC_PREREQ])
 
+m4_define([_GCC_AUTOCONF_VERSION], [2.69])
 
 dnl Ensure exactly this Autoconf version is used
 m4_ifndef([_GCC_AUTOCONF_VERSION],
